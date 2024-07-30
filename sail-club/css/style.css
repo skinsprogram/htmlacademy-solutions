@@ -38,6 +38,67 @@ body {
     text-transform: uppercase;
 }
 
+.news h2 {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00C6BD;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+}
+
+.post-img figcaption {
+    font-size: 16px;
+    line-height: 19px;
+    color: #8693A4;
+}
+
+.post h3 {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.post p {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.post h4 {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.post ul {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.post ins {
+    text-decoration: none;
+}
+
+.post blockquote {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.post-meta a {
+    color: #163152;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post-meta time {
+    color: #8693A4;
+    font-size: 16px;
+    line-height: 19px;
+}
+
 .contacts h2 {
     font-size: 24px;
     line-height: 34px;
