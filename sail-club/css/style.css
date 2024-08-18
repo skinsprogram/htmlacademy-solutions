@@ -115,6 +115,48 @@ body {
     text-transform: uppercase;
 }
 
+.gallery {
+    margin-bottom: 120px;
+}
+
+.gallery h2 {
+    margin: 0;
+    margin-bottom: 55px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00c6bd;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+}
+
+.slider {
+    display: flex;
+    align-items: flex-start;
+}
+
+.active-photo {
+    width: 970px;
+    margin-right: 30px;
+}
+
+.preview-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 170px;
+}
+
+.preview-list li {
+    margin-bottom: 30px;
+  }
+  
+  .preview-list li:last-child {
+    margin-bottom: 0;
+}
+
 .news {
     width: 770px;
     margin: 0 auto;
