@@ -24,8 +24,6 @@ body {
     margin: 0;
     width: 64px;
     height: 68px;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 .site-navigation {
@@ -163,6 +161,80 @@ body {
 
 .blog-article-description {
     margin-top: 0;
+}
+
+.rent {
+    margin-bottom: 120px;
+}
+
+.rent h2 {
+    margin: 0;
+    margin-bottom: 55px;
+    font-size: 24px;
+    line-height: 34px;
+    text-decoration: underline;
+    text-decoration-color: #00c6bd;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 30px;
+}
+
+.card {
+    width: 310px;
+    padding: 30px;
+    box-shadow: 0px 4px 30px rgba(22, 49, 82, 0.12);
+}
+
+.card-img {
+    display: block;
+    margin-bottom: 21px;
+}
+
+.card-title {
+    margin: 0;
+    margin-bottom: 18px;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.card-description {
+    margin: 0;
+    margin-bottom: 15px; 
+    font-size: 14px; 
+    line-height: 24px;  
+}
+
+.card-features {
+    padding: 0;
+    margin: 0;
+    margin-left: 18px;
+    margin-bottom: 29px;
+    list-style-type: disc;
+}
+
+.card-features li {
+    margin-bottom: 4px;
+    font-size: 14px; 
+    line-height: 19px; 
+}
+
+.card-price {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .gallery {
