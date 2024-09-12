@@ -10,6 +10,21 @@
 </head>
 <body class="page">
     <header class="page-header">
+        <div class="services">
+            <div class="services-content">
+                <a class="location" href="#">Сочи</a>
+                <p class="caption">Тема</p>
+                <ul class="theme-switcher">
+                    <li><button class="theme-button-dark" type="button"></button></li>
+                    <li><button class="theme-button-light active" type="button"></button></li>
+                </ul>
+                <p class="caption">Шрифт</p>
+                <ul class="fonts">
+                    <li><button class="font-button-sans-serif active" type="button">А</button></li>
+                    <li><button class="font-button-serif" type="button">А</button></li>
+                </ul>
+            </div>
+        </div>
         <nav class="main-nav">
             <a class="logo" href="#"><img src="img/logo.svg" width="64" height="68" alt="Логотип яхт-клуба Yacht Club"></a>
             <ul class="site-navigation">
@@ -29,36 +44,46 @@
             <h1>Вместе под парусом</h1>
             <img src="img/main-photo-1.jpg" width="1170" height="466" alt="Парусное судно на закате">
         </section>
-        <article class="blog-article blog-article-1">
+        <article class="blog-article blog-article-1 short">
             <div class="blog-article-content">
                 <p class="blog-article-date"><time datetime="2024-10-20">20 октября</time> - <time datetime="2025-04-19">19 апреля</time></p>
                 <h2>Стань частью команды</h2>
                 <p class="blog-article-description">Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время! Мы набираем команду будущих шкиперов. За 6 месяцев вы станете настоящим капитаном и уже в следующем сезоне сможете самостоятельно выйти в море!</p>
+                <button class="more" type="button">Читать дальше</button>
             </div>
             <img class="blog-article-img" src="img/blog-photo-1.jpg" width="600" height="262" alt="Мужчина на яхте смотрит в бинокль">
         </article>
-        <article class="blog-article blog-article-2">
+        <article class="blog-article blog-article-2 short">
             <div class="blog-article-content">
                 <p class="blog-article-date"><time datetime="2024-07-16">16 июля</time> - <time datetime="2025-07-23">23 июля</time></p>
                 <h2>Рожденные в воде</h2>
                 <p class="blog-article-description">Подарите детям настоящее приключение! День с морскими пиратами на корабле – это лучшая команда, веселые аниматоры, игры, соревнования, работа в команде и, конечно, море!</p>
+                <button class="more" type="button">Читать дальше</button>
             </div>
             <img class="blog-article-img" src="img/blog-photo-2.jpg" width="600" height="252" alt="Дети и взрослые на яхте">
         </article>
         <section class="rent">
-            <h2>Аренда яхты</h2>
+            <header>
+                <h2>Аренда яхты</h2>
+                <ul class="card-view-buttons">
+                    <li class="card-view-item"><button class="card-view-button-grid active" type="button"></button></li>
+                    <li class="card-view-item"><button class="card-view-button-list" type="button"></button></li>
+                </ul>
+            </header>
             <ul class="cards">
                 <li class="card">
                     <img class="card-img" src="img/photo-card-1.jpg" width="310" height="141" alt="Катер">
-                    <h3 class="card-title">Катер Meridian 401</h3>
-                    <p class="card-description">Яхта 401 длиной 12.5 метров и шириной 4.2 метра, вместимостью 11 человек</p>
-                    <ul class="card-features">
-                        <li>2 каюты</li>
-                        <li>4 спальных места</li>
-                        <li>аудиосистема, кондиционер</li>
-                        <li>холодильник, микроволновка</li>
-                        <li>душ, туалет</li>
-                    </ul>
+                    <div class="card-content">
+                        <h3 class="card-title">Катер Meridian 401</h3>
+                        <p class="card-description">Яхта 401 длиной 12.5 метров и шириной 4.2 метра, вместимостью 11 человек</p>
+                        <ul class="card-features">
+                            <li>2 каюты</li>
+                            <li>4 спальных места</li>
+                            <li>аудиосистема, кондиционер</li>
+                            <li>холодильник, микроволновка</li>
+                            <li>душ, туалет</li>
+                        </ul>
+                    </div>
                     <p class="card-price">
                         <span class="card-price-name">Цена:</span>
                         <span class="card-price-value">14 000 ₽/час</span>
@@ -66,15 +91,17 @@
                 </li>
                 <li class="card">
                     <img class="card-img" src="img/photo-card-2.jpg" width="310" height="141" alt="Катер">
-                    <h3 class="card-title">Катер 60 Manhattan</h3>
-                    <p class="card-description">Двухпалубное судно VIP уровня длиной 20 метров, вместимостью 10 человек</p>
-                    <ul class="card-features">
-                        <li>6 кают</li>
-                        <li>носовая часть с огромной подушкой</li>
-                        <li>просторный флайбридж</li>
-                        <li>оборудованная кухня</li>
-                        <li>джакузи</li>
-                    </ul>
+                    <div class="card-content">
+                        <h3 class="card-title">Катер 60 Manhattan</h3>
+                        <p class="card-description">Двухпалубное судно VIP уровня длиной 20 метров, вместимостью 10 человек</p>
+                        <ul class="card-features">
+                            <li>6 кают</li>
+                            <li>носовая часть с огромной подушкой</li>
+                            <li>просторный флайбридж</li>
+                            <li>оборудованная кухня</li>
+                            <li>джакузи</li>
+                        </ul>
+                    </div>
                     <p class="card-price">
                         <span class="card-price-name">Цена:</span>
                         <span class="card-price-value">25 000 ₽/час</span>
@@ -82,15 +109,17 @@
                 </li>
                 <li class="card">
                     <img class="card-img" src="img/photo-card-3.jpg" width="310" height="141" alt="Катер">
-                    <h3 class="card-title">Катер Starfisher 34</h3>
-                    <p class="card-description">Моторная яхта длиной 11 метров и вместимостью до 8 человек</p>
-                    <ul class="card-features">
-                        <li>4 каюты</li>
-                        <li>6 спальных мест</li>
-                        <li>аудиосистема, кондиционер</li>
-                        <li>холодильник, микроволновка</li>
-                        <li>душ, туалет</li>
-                    </ul>
+                    <div class="card-content">
+                        <h3 class="card-title">Катер Starfisher 34</h3>
+                        <p class="card-description">Моторная яхта длиной 11 метров и вместимостью до 8 человек</p>
+                        <ul class="card-features">
+                            <li>4 каюты</li>
+                            <li>6 спальных мест</li>
+                            <li>аудиосистема, кондиционер</li>
+                            <li>холодильник, микроволновка</li>
+                            <li>душ, туалет</li>
+                        </ul>
+                    </div>
                     <p class="card-price">
                         <span class="card-price-name">Цена:</span>
                         <span class="card-price-value">18 000 ₽/час</span>
@@ -98,15 +127,17 @@
                 </li>
                 <li class="card">
                     <img class="card-img" src="img/photo-card-4.jpg" width="310" height="141" alt="Катер">
-                    <h3 class="card-title">Катер Pacific 7-13</h3>
-                    <p class="card-description">Катер Pacific длиной 12 метров и шириной 4.6 метра, вместимостью 8 человек</p>
-                    <ul class="card-features">
-                        <li>1 каюта</li>
-                        <li>2 спальных места</li>
-                        <li>аудиосистема, кондиционер</li>
-                        <li>холодильник, микроволновка</li>
-                        <li>туалет</li>
-                    </ul>
+                    <div class="card-content">
+                        <h3 class="card-title">Катер Pacific 7-13</h3>
+                        <p class="card-description">Катер Pacific длиной 12 метров и шириной 4.6 метра, вместимостью 8 человек</p>
+                        <ul class="card-features">
+                            <li>1 каюта</li>
+                            <li>2 спальных места</li>
+                            <li>аудиосистема, кондиционер</li>
+                            <li>холодильник, микроволновка</li>
+                            <li>туалет</li>
+                        </ul>
+                    </div>
                     <p class="card-price">
                         <span class="card-price-name">Цена:</span>
                         <span class="card-price-value">11 000 ₽/час</span>
@@ -114,15 +145,17 @@
                 </li>
                 <li class="card">
                     <img class="card-img" src="img/photo-card-5.jpg" width="310" height="141" alt="Катер">
-                    <h3 class="card-title">Катер Atlantic 3000</h3>
-                    <p class="card-description">Катер Atlantic длиной 14 метров и вместимостью до 6 человек</p>
-                    <ul class="card-features">
-                        <li>2 каюты</li>
-                        <li>4 спальных места</li>
-                        <li>просторный флайбридж</li>
-                        <li>оборудованная кухня</li>
-                        <li>душ, туалет</li>
-                    </ul>
+                    <div class="card-content">
+                        <h3 class="card-title">Катер Atlantic 3000</h3>
+                        <p class="card-description">Катер Atlantic длиной 14 метров и вместимостью до 6 человек</p>
+                        <ul class="card-features">
+                            <li>2 каюты</li>
+                            <li>4 спальных места</li>
+                            <li>просторный флайбридж</li>
+                            <li>оборудованная кухня</li>
+                            <li>душ, туалет</li>
+                        </ul>
+                    </div>
                     <p class="card-price">
                         <span class="card-price-name">Цена:</span>
                         <span class="card-price-value">15 000 ₽/час</span>
@@ -173,7 +206,7 @@
                         <a href="#">Артем Колесников</a>
                         <time datetime="2021-06-20">20.06.2021</time>
                     </p>
-                        <a class="post-share" href="#"><img src="img/share.svg" width="26" height="22" alt="Поделиться"></a>
+                    <a class="post-share" href="#"><img src="img/share.svg" width="26" height="22" alt="Поделиться"></a>
                 </footer>
             </article>
         </section>
