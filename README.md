@@ -2,4 +2,4 @@
 
 ## [Start in programming](https://htmlacademy.ru/courses/new/fe-start)
 
-- [ ] Sail Club
+- [x] Sail Club
