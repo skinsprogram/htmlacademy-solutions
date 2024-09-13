@@ -7,9 +7,13 @@ body {
     margin: 0;
 }
 
+/* header */
+
 .page-header {
     margin-bottom: 40px;
 }
+
+/* services */
 
 .services {
     padding-top: 15px;
@@ -250,6 +254,8 @@ body {
     opacity: 0.3;
 }
 
+/* main */
+
 .main-content {
     margin: 0 auto;
     padding: 0 55px;
@@ -274,6 +280,8 @@ body {
 .hero img {
     display: block;
 }
+
+/* blog */
 
 .blog-article {
     width: 1030px;
@@ -346,6 +354,7 @@ body {
     background-color: transparent;
     border: none;
 
+    /* Элемент скрыт в развернутой статье */
     display: none;
 }
 
@@ -359,6 +368,8 @@ body {
     opacity: 0.3;
 }
 
+/* Сокращенное отображение статьи */
+
 .blog-article.short .blog-article-description {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -366,8 +377,11 @@ body {
 }
 
 .blog-article.short .more {
+    /* Показываем элемент в свернутой статье */
     display: inline-block;
 }
+
+/* rent */
 
 .rent {
     margin-bottom: 120px;
@@ -508,6 +522,8 @@ body {
     line-height: 21px;
 }
 
+/* Вертикальная раскладка карточек списком */
+
 .cards.list {
     flex-direction: column;
 }
@@ -549,6 +565,8 @@ body {
 .cards.list .card-price-name {
     display: none;
 }
+
+/* gallery */
 
 .gallery {
     margin-bottom: 120px;
@@ -614,6 +632,8 @@ body {
 .preview-list img {
     display: block;
 }
+
+/* news */
 
 .news {
     width: 770px;
@@ -755,6 +775,8 @@ body {
     line-height: 19px;
 }
 
+/* contacts */
+
 .contacts {
     display: flex;
     justify-content: space-between;
@@ -851,6 +873,8 @@ body {
 .social-item a:active {
     opacity: 0.3;
 }
+
+/* footer */
 
 .main-footer {
     padding-top: 60px;
@@ -951,14 +975,20 @@ body {
     margin: 0;
 }
 
+/* Выделение активной кнопки */
+
 .active {
     background-color: #00c6bd;
     color: #fdfdff;
 }
 
+/* Theme: serif font */
+
 .page.serif {
     font-family: "Philosopher", serif;
 }
+
+/* Theme: dark */
 
 .page.dark {
     color: #fdfdff;
